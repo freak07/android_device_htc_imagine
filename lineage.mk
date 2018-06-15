@@ -18,11 +18,11 @@
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
 # Inherit TWRP device configuration
-$(call inherit-product-if-exists, device/htc/ocn/twrp_ocn.mk)
+$(call inherit-product-if-exists, device/htc/ime/twrp_ime.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ocn
+PRODUCT_NAME := lineage_ime
 PRODUCT_BRAND := htc
-PRODUCT_DEVICE := ocn
+PRODUCT_DEVICE := ime
